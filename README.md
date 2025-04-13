@@ -6,6 +6,11 @@
 
 
 
+
+![image](https://github.com/user-attachments/assets/a5f41e83-9572-49d4-a13e-06c4f0c0dcff)
+
+
+
 # 🚀 Description
 The Password Hash Cracker is a versatile and efficient tool designed to crack password hashes using Dictionary and Brute Force methods. It supports common hash algorithms such as MD5, SHA-1, and SHA-256.
 
