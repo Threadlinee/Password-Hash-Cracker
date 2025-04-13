@@ -1,4 +1,4 @@
-🔓 Password Hash Cracker (Dictionary + Brute Force) 🔑
+# 🔓 Password Hash Cracker (Dictionary + Brute Force) 🔑
 🚀 Description
 The Password Hash Cracker is a versatile and efficient tool designed to crack password hashes using Dictionary and Brute Force methods. It supports common hash algorithms such as MD5, SHA-1, and SHA-256.
 
