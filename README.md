@@ -1,10 +1,11 @@
 # 🔓 Password Hash Cracker (Dictionary + Brute Force) 🔑
-🚀 Description
+
+# 🚀 Description
 The Password Hash Cracker is a versatile and efficient tool designed to crack password hashes using Dictionary and Brute Force methods. It supports common hash algorithms such as MD5, SHA-1, and SHA-256.
 
 Whether you're a security professional 🛡️, an ethical hacker 🕵️‍♂️, or just someone testing your own hashed passwords 🔐, this tool helps you recover plaintext passwords from hashed values. You can use a wordlist (dictionary attack) or try all possible combinations up to a given length (brute force).
 
-🛠️ Key Features:
+# 🛠️ Key Features:
 
 MD5, SHA-1, and SHA-256 hash cracking support 🔑.
 
@@ -18,7 +19,7 @@ Real-time updates: Progress tracking for brute force attacks 📊.
 
 Simple and easy-to-understand CLI interface 🎮.
 
-💻 Installation and Setup
+# 💻 Installation and Setup
 Windows and Linux Instructions:
 1. Clone the Repository
 To get started, clone the project from GitHub:
@@ -38,7 +39,7 @@ Run the tool using the following command:
 dotnet run
 Alternatively, if you've already built it, navigate to the bin/debug/net8.0/ folder and run the executable directly:
 
-Windows:
+# Windows:
 
 ./PasswordHashCracker.exe
 Linux:
@@ -57,7 +58,7 @@ Where:
 
 -w [wordlist] is the path to your wordlist.
 
-Example (Windows):
+# Example (Windows):
 
 PasswordHashCracker.exe -h 098f6bcd4621d373cade4e832627b4f6 -w wordlist.txt
 Brute Force Attack:
@@ -70,20 +71,20 @@ Where:
 
 -b [min_length] [max_length] specifies the range of characters for brute-forcing.
 
-Example (Windows):
+# Example (Windows):
 
 PasswordHashCracker.exe -h fcea920f7412b5da7be0cf42b8c93759 -b 4 6
-🔨 Example Commands
+# 🔨 Example Commands
 Cracking an MD5 hash using the default wordlist:
 
 PasswordHashCracker.exe -h 098f6bcd4621d373cade4e832627b4f6 -w wordlist.txt
 Cracking a SHA-1 hash with brute-force (min length 4, max length 6):
 
 PasswordHashCracker.exe -h fcea920f7412b5da7be0cf42b8c93759 -b 4 6
-⚠️ Disclaimer
+# ⚠️ Disclaimer
 This tool is intended for ethical hacking 🛡️, password recovery 🔑, and testing purposes only. Use it responsibly and only on systems you have permission to test. Unauthorized use is illegal and unethical 🚫. Always follow legal and ethical guidelines when using this tool.
 
-🤝 Contributing
+# 🤝 Contributing
 Contributions are welcome! If you find bugs or have ideas for new features, feel free to fork the project and create a pull request. We follow the guidelines below for contributions:
 
 Fork the repository and make your changes.
@@ -94,6 +95,6 @@ Follow the code style and add clear comments to your code.
 
 We appreciate your contributions! 🎉
 
-📜 License
+# 📜 License
 This project is open-source and available under the MIT License.
 
