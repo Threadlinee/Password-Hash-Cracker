@@ -1,87 +1,99 @@
 🔓 Password Hash Cracker (Dictionary + Brute Force) 🔑
 🚀 Description
-Password Hash Cracker is a powerful tool designed to crack hashed passwords using both dictionary and brute force techniques. This tool allows you to recover plaintext passwords from commonly used hash algorithms like MD5, SHA-1, and SHA-256. With the flexibility of using custom wordlists or relying on brute force, this tool provides a comprehensive approach to password recovery.
+The Password Hash Cracker is a versatile and efficient tool designed to crack password hashes using Dictionary and Brute Force methods. It supports common hash algorithms such as MD5, SHA-1, and SHA-256.
 
-It is designed for security professionals 🛡️, ethical hackers 🕵️‍♂️, and individuals looking to test the strength of their own password hashes 🔐.
+Whether you're a security professional 🛡️, an ethical hacker 🕵️‍♂️, or just someone testing your own hashed passwords 🔐, this tool helps you recover plaintext passwords from hashed values. You can use a wordlist (dictionary attack) or try all possible combinations up to a given length (brute force).
 
-The tool is simple to use, yet powerful enough to tackle real-world password cracking scenarios 🔨.
+🛠️ Key Features:
 
-✨ Features
-Supports MD5, SHA-1, and SHA-256 password hashes 🔐.
+MD5, SHA-1, and SHA-256 hash cracking support 🔑.
 
-Two cracking methods:
+Dictionary Attack: Cracks hashes using a wordlist 📜.
 
-Dictionary Attack: Uses a predefined list of possible passwords 📜.
+Brute Force Attack: Tries every possible combination 🔢.
 
-Brute Force Attack: Tries all possible combinations up to a specified length 🔢.
+Custom Wordlist: Input your own wordlist for cracking 📑.
 
-Customizable wordlist input or default wordlist options 🔄.
+Real-time updates: Progress tracking for brute force attacks 📊.
 
-Simple and clear output to track cracking progress 📊.
+Simple and easy-to-understand CLI interface 🎮.
 
-Real-time status updates for brute-force attempts ⏱️.
-
-🔧 Prerequisites
-Before running the tool, ensure you have:
-
-.NET 6.0 or higher installed (if not, download it here) 📦.
-
-A valid hash to crack 🔑.
-
-📥 Installation
-Clone the repository to your local machine:
-
+💻 Installation and Setup
+Windows and Linux Instructions:
+1. Clone the Repository
+To get started, clone the project from GitHub:
 
 git clone https://github.com/your-username/Password-Hash-Cracker.git
-Navigate to the project directory:
-
+2. Navigate to the Project Folder
+Change to the directory where you cloned the repository:
 
 cd Password-Hash-Cracker
-Compile the project:
-
+3. Build the Project
+Once inside the folder, compile the project using .NET 6.0 or above:
 
 dotnet build
-Run the tool:
-
+4. Run the Tool
+Run the tool using the following command:
 
 dotnet run
-Alternatively, if you have already built the project, navigate to the bin/debug/net8.0/ folder and run the executable:
+Alternatively, if you've already built it, navigate to the bin/debug/net8.0/ folder and run the executable directly:
 
+Windows:
 
 ./PasswordHashCracker.exe
-🛠️ Usage
-📝 Dictionary Attack:
-To crack a hash using a wordlist:
+Linux:
 
+./PasswordHashCracker
+🔧 Usage
+Once the tool is running, you can use Dictionary Attack or Brute Force Attack to crack password hashes.
+
+Dictionary Attack:
+To crack a password hash using a wordlist, use this command:
 
 PasswordHashCracker.exe -h [hash_to_crack] -w [path_to_wordlist]
-🔨 Brute Force Attack:
-To perform a brute-force attack with a custom length:
+Where:
 
+-h [hash] is the hash you want to crack.
+
+-w [wordlist] is the path to your wordlist.
+
+Example (Windows):
+
+PasswordHashCracker.exe -h 098f6bcd4621d373cade4e832627b4f6 -w wordlist.txt
+Brute Force Attack:
+To perform a brute force attack with a custom length (e.g., between 4 and 6 characters):
 
 PasswordHashCracker.exe -h [hash_to_crack] -b [min_length] [max_length]
 Where:
 
--h [hash] is the hash you want to crack 🔐.
+-h [hash] is the hash you want to crack.
 
--w [wordlist] is the path to your custom wordlist 📜.
+-b [min_length] [max_length] specifies the range of characters for brute-forcing.
 
--b [min_length] [max_length] is the range for the brute-force attack 🔢.
-
-🎯 Example:
-Cracking an MD5 hash using the default wordlist:
-
-
-PasswordHashCracker.exe -h 098f6bcd4621d373cade4e832627b4f6 -w wordlist.txt
-Cracking a SHA-1 hash using brute force with a minimum length of 4 and maximum length of 6:
-
+Example (Windows):
 
 PasswordHashCracker.exe -h fcea920f7412b5da7be0cf42b8c93759 -b 4 6
-💡 Contributing
-Contributions to this project are welcome 🤝. If you have any ideas for improvements or features, feel free to fork this repository, create a pull request, or open an issue 📝.
+🔨 Example Commands
+Cracking an MD5 hash using the default wordlist:
 
-Please make sure to follow the coding standards and write clear, descriptive commit messages 📚.
+PasswordHashCracker.exe -h 098f6bcd4621d373cade4e832627b4f6 -w wordlist.txt
+Cracking a SHA-1 hash with brute-force (min length 4, max length 6):
 
+PasswordHashCracker.exe -h fcea920f7412b5da7be0cf42b8c93759 -b 4 6
 ⚠️ Disclaimer
-This tool is intended for ethical hacking and password recovery only ⚖️. Use it responsibly and ensure you have permission to test the systems you are cracking 🔒. Unauthorized use of this tool may be illegal and unethical 🚫.
+This tool is intended for ethical hacking 🛡️, password recovery 🔑, and testing purposes only. Use it responsibly and only on systems you have permission to test. Unauthorized use is illegal and unethical 🚫. Always follow legal and ethical guidelines when using this tool.
+
+🤝 Contributing
+Contributions are welcome! If you find bugs or have ideas for new features, feel free to fork the project and create a pull request. We follow the guidelines below for contributions:
+
+Fork the repository and make your changes.
+
+Create a descriptive pull request with details of what you've done.
+
+Follow the code style and add clear comments to your code.
+
+We appreciate your contributions! 🎉
+
+📜 License
+This project is open-source and available under the MIT License.
 
