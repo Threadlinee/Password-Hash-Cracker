@@ -35,7 +35,7 @@ Windows and Linux Instructions:
 1. Clone the Repository
 To get started, clone the project from GitHub:
 
-git clone https://github.com/your-username/Password-Hash-Cracker.git
+git clone https://github.com/dionabazi/Password-Hash-Cracker.git
 2. Navigate to the Project Folder
 Change to the directory where you cloned the repository:
 
