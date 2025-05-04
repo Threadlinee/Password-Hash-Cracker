@@ -109,3 +109,8 @@ We appreciate your contributions! 🎉
 # 📜 License
 This project is open-source and available under the MIT License.
 
+## ☕ Support Me
+If you like this project, feel free to [buy me a coffee](https://ko-fi.com/G2G114SBVV)!
+
+[![Buy Me a Coffee](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/G2G114SBVV)
+
